@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tat</string>
+    <string name="action_settings">Settings</string>
+    <string name="not_implemented">Not implemented.</string>
+
+    <!-- Welcome Fragment -->
+    <string name="welcome_you_are_not_member">You are not a member?</string>
+    <string name="welcome_register">Register.</string>
+    <string name="welcome_welcome">Welcome!</string>
+    <string name="welcome_nice_to_see_you_again">Nice to see you again!</string>
+    <string name="welcome_login">Login</string>
+
+    <!-- Login Fragment -->
+    <string name="login_password">Password</string>
+    <string name="login_email_address">Email Address</string>
+    <string name="login_login">Login</string>
+    <string name="login_need_help">Need Help?</string>
+    <string name="login_hello_there">Hello There!</string>
+    <string name="login_please_wait_loading">Please wait&#8230; Loading&#8230;</string>
+
+    <!-- Home Fragment -->
+    <string name="home_title">Tat</string>
+    <string name="home_epam">&#60;EPAM&#62;</string>
+    <string name="home_logout">Logout</string>
+    <string name="home_get_info_about_current_user">Get information about current logged-in user</string>
+    <string name="home_get_all_assigned_projects">Get all assigned projects</string>
+    <string name="home_database">Database:</string>
+    <string name="home_projects">List of projects:</string>
+    <string name="home_user_info">User info:</string>
+    <string name="home_home_task_profiler">Home task Profiler:</string>
+    <string name="home_start_async_task">Start Async task</string>
+    <string name="home_start_runable">Start Runnable</string>
+    <string name="home_create_objects">Create objects</string>
+    <string name="home_execution_history">History</string>
+
+    <string name="home_name">Name: </string>
+    <string name="home_full_name">FullName: </string>
+    <string name="home_role">Role: </string>
+
+    <!-- Update Cat Fragment -->
+    <string name="update_cat_update">Update</string>
+
+    <!-- Execution History Fragment -->
+
+    <!-- Stub -->
+    <string name="stub_cat_age">Cat age</string>
+    <string name="stub_cat_name">Cat name</string>
+    <string name="stub_project_name">Project name</string>
+    <string name="stub_entity_name">Entity name</string>
+    <string name="stub_status">Status</string>
+
+    <!-- Notification -->
+    <string name="channel_id">Channel Id</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="channel_description">Channel Description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

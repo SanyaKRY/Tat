@@ -1,0 +1,430 @@
+{
+  "name": "Get JWT token",
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/v1/project"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "content": [
+        {
+          "version": 0,
+          "createdBy": 1,
+          "updatedBy": 1,
+          "creationDate": "2022-12-09T13:00:37.944Z",
+          "updateDate": "2022-12-09T13:00:37.944Z",
+          "id": 1,
+          "name": "Project_1",
+          "users": [
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": "ISO8583 tests"
+        },
+        {
+          "version": 0,
+          "createdBy": 1,
+          "updatedBy": 1,
+          "creationDate": "2023-05-17T09:58:30.882321Z",
+          "updateDate": "2023-05-17T09:58:30.882321Z",
+          "id": 34610,
+          "name": "Project_2",
+          "users": [
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 4,
+          "updatedBy": 4,
+          "creationDate": "2023-05-17T10:18:05.99582Z",
+          "updateDate": "2023-05-17T10:18:05.99582Z",
+          "id": 1000001,
+          "name": "Project_3",
+          "users": [
+            {
+              "id": 4,
+              "fullName": "Tanya Admin",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 1,
+          "updatedBy": 1,
+          "creationDate": "2022-12-11T16:08:51.01Z",
+          "updateDate": "2022-12-11T16:08:51.01Z",
+          "id": 4,
+          "name": "Project_4",
+          "users": [
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": "ISO8583 tests"
+        },
+        {
+          "version": 0,
+          "createdBy": 1,
+          "updatedBy": 1,
+          "creationDate": "2022-12-12T08:45:16.078Z",
+          "updateDate": "2022-12-12T08:45:16.078Z",
+          "id": 5,
+          "name": "Project_5",
+          "users": [
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 3,
+          "updatedBy": 3,
+          "creationDate": "2023-04-13T12:52:00.296176Z",
+          "updateDate": "2023-04-13T12:52:00.296176Z",
+          "id": 25572,
+          "name": "Project_6",
+          "users": [
+            {
+              "id": 71,
+              "fullName": "Yana Busko",
+              "projectRole": "OPERATOR"
+            },
+            {
+              "id": 3,
+              "fullName": "Tanya User",
+              "projectRole": "PROJECT_MANAGER"
+            },
+            {
+              "id": 12,
+              "fullName": "Yaroslav Bova",
+              "projectRole": "DEVELOPER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 11,
+          "updatedBy": 11,
+          "creationDate": "2023-03-10T11:12:11.783085Z",
+          "updateDate": "2023-03-10T11:12:11.783085Z",
+          "id": 19173,
+          "name": "Project_7",
+          "users": [
+            {
+              "id": 11,
+              "fullName": "Usevalad Mironau",
+              "projectRole": "OPERATOR"
+            },
+            {
+              "id": 2,
+              "fullName": "xxx",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 2,
+          "updatedBy": 2,
+          "creationDate": "2023-01-04T12:52:42.102Z",
+          "updateDate": "2023-01-04T12:52:42.102Z",
+          "id": 5564,
+          "name": "Project_8",
+          "users": [
+            {
+              "id": 3,
+              "fullName": "Tanya User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 3,
+          "updatedBy": 3,
+          "creationDate": "2023-05-24T16:40:45.731829Z",
+          "updateDate": "2023-05-24T16:40:45.731829Z",
+          "id": 1002008,
+          "name": "Project_9",
+          "users": [
+            {
+              "id": 3,
+              "fullName": "Tanya User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 1,
+          "updatedBy": 1,
+          "creationDate": "2022-12-21T08:02:14.708Z",
+          "updateDate": "2022-12-21T08:02:14.708Z",
+          "id": 1168,
+          "name": "Project_10",
+          "users": [
+            {
+              "id": 9,
+              "fullName": "Anastasiya Zasimovich",
+              "projectRole": "PROJECT_MANAGER"
+            },
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": "project for BA "
+        },
+        {
+          "version": 0,
+          "createdBy": 1,
+          "updatedBy": 1,
+          "creationDate": "2023-06-01T13:24:39.225945Z",
+          "updateDate": "2023-06-01T13:24:39.225945Z",
+          "id": 1003349,
+          "name": "Project_11",
+          "users": [
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": "this is for testing UI Components"
+        },
+        {
+          "version": 0,
+          "createdBy": 4,
+          "updatedBy": 4,
+          "creationDate": "2023-03-15T14:37:41.649105Z",
+          "updateDate": "2023-03-15T14:37:41.649105Z",
+          "id": 20394,
+          "name": "Project_12",
+          "users": [
+            {
+              "id": 4,
+              "fullName": "Tanya Admin",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 1,
+          "updatedBy": 1,
+          "creationDate": "2023-04-10T08:47:35.049591Z",
+          "updateDate": "2023-04-10T08:47:35.049591Z",
+          "id": 24908,
+          "name": "Project_13",
+          "users": [
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 1,
+          "updatedBy": 1,
+          "creationDate": "2023-03-08T09:29:28.707073Z",
+          "updateDate": "2023-03-08T09:29:28.707073Z",
+          "id": 18557,
+          "name": "Project_14",
+          "users": [
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 123,
+          "updatedBy": 123,
+          "creationDate": "2023-07-24T07:22:46.264771Z",
+          "updateDate": "2023-07-24T07:22:46.264771Z",
+          "id": 1016746,
+          "name": "Project_15",
+          "users": [
+            {
+              "id": 123,
+              "fullName": "auto user3",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": "project"
+        },
+        {
+          "version": 0,
+          "createdBy": 72,
+          "updatedBy": 72,
+          "creationDate": "2023-04-18T13:26:07.643134Z",
+          "updateDate": "2023-04-18T13:26:07.643134Z",
+          "id": 26666,
+          "name": "Project_16",
+          "users": [
+            {
+              "id": 72,
+              "fullName": "Yana Busko",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        },
+        {
+          "version": 0,
+          "createdBy": 9,
+          "updatedBy": 9,
+          "creationDate": "2023-04-04T08:11:05.962666Z",
+          "updateDate": "2023-04-04T08:11:05.962666Z",
+          "id": 24181,
+          "name": "Project_17",
+          "users": [
+            {
+              "id": 9,
+              "fullName": "Anastasiya Zasimovich",
+              "projectRole": "DEVELOPER"
+            },
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": "Project for demo 07.04 - Developer role"
+        },
+        {
+          "version": 1,
+          "createdBy": 1,
+          "updatedBy": 4,
+          "creationDate": "2022-12-13T10:26:08.572Z",
+          "updateDate": "2023-03-13T15:12:47.057796Z",
+          "id": 6,
+          "name": "Project_18",
+          "users": [
+            {
+              "id": 12,
+              "fullName": "Yaroslav Bova",
+              "projectRole": "DEVELOPER"
+            },
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "OPERATOR"
+            },
+            {
+              "id": 10,
+              "fullName": "Alla Volkova",
+              "projectRole": "PROJECT_MANAGER"
+            },
+            {
+              "id": 1000022,
+              "fullName": "Otabek Dikonbayev",
+              "projectRole": "DEVELOPER"
+            },
+            {
+              "id": 8,
+              "fullName": "Olga User",
+              "projectRole": "PROJECT_MANAGER"
+            },
+            {
+              "id": 3,
+              "fullName": "Tanya User",
+              "projectRole": "PROJECT_MANAGER"
+            },
+            {
+              "id": 9,
+              "fullName": "Anastasiya Zasimovich",
+              "projectRole": "PROJECT_MANAGER"
+            },
+            {
+              "id": 1000018,
+              "fullName": "Test Notifications",
+              "projectRole": "PROJECT_MANAGER"
+            },
+            {
+              "id": 5,
+              "fullName": "Valiantsin Boltach",
+              "projectRole": "DEVELOPER"
+            }
+          ],
+          "description": "[Permanent] Manual Testing "
+        },
+        {
+          "version": 0,
+          "createdBy": 1,
+          "updatedBy": 1,
+          "creationDate": "2023-02-27T13:34:08.137Z",
+          "updateDate": "2023-02-27T13:34:08.137Z",
+          "id": 16135,
+          "name": "Project_19",
+          "users": [
+            {
+              "id": 12,
+              "fullName": "Yaroslav Bova",
+              "projectRole": "DEVELOPER"
+            },
+            {
+              "id": 1,
+              "fullName": "New Admin User",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": "Do not touch! For testing UI components"
+        },
+        {
+          "version": 0,
+          "createdBy": 9,
+          "updatedBy": 9,
+          "creationDate": "2023-02-27T13:36:58.685Z",
+          "updateDate": "2023-02-27T13:36:58.685Z",
+          "id": 16136,
+          "name": "Project_20",
+          "users": [
+            {
+              "id": 9,
+              "fullName": "Anastasiya Zasimovich",
+              "projectRole": "PROJECT_MANAGER"
+            }
+          ],
+          "description": ""
+        }
+      ],
+      "page": {
+        "number": 1,
+        "size": 20,
+        "totalElements": 20,
+        "totalPages": 1
+      }
+    }
+  }
+}

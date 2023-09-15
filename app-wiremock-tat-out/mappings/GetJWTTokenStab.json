@@ -1,0 +1,16 @@
+{
+  "name": "Get JWT token",
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/auth/login"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "accessToken": "AccessTokenTest",
+      "refreshToken": "RefreshTokenTest",
+      "username": "UsernameTest",
+      "userId": 5
+    }
+  }
+}

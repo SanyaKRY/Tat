@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.tat.features.home.presentation.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_updateProjectFragment"
+            app:destination="@id/updateCatFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_executionHistoryFragment"
+            app:destination="@id/executionHistoryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_projectFragment"
+            app:destination="@id/projectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateCatFragment"
+        android:name="com.example.tat.features.home.presentation.ui.UpdateCatFragment"
+        android:label="fragment_update_cat"
+        tools:layout="@layout/fragment_update_cat">
+        <action
+            android:id="@+id/action_updateProjectFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="catUi"
+            app:argType="com.example.tat.features.home.presentation.model.CatUi" />
+    </fragment>
+    <fragment
+        android:id="@+id/executionHistoryFragment"
+        android:name="com.example.tat.features.executionhistory.presentation.ui.ExecutionHistoryFragment"
+        android:label="fragment_execution_history"
+        tools:layout="@layout/fragment_execution_history" >
+        <action
+            android:id="@+id/action_executionHistoryFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/projectFragment"
+        android:name="com.example.tat.features.project.presentation.ui.ProjectFragment"
+        android:label="ProjectFragment"
+        tools:layout="@layout/fragment_project" >
+        <action
+            android:id="@+id/action_projectFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="userProjectUi"
+            app:argType="com.example.tat.features.home.presentation.model.UserProjectUi" />
+    </fragment>
+</navigation>

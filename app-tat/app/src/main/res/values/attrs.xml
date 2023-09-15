@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="pass" format="integer" />
+        <attr name="failed" format="integer" />
+        <attr name="skipped" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="SmallCustomView">
+        <attr name="smallpass" format="integer" />
+        <attr name="smallfailed" format="integer" />
+        <attr name="smallskipped" format="integer" />
+    </declare-styleable>
+</resources>
